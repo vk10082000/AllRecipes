@@ -10,15 +10,60 @@ Live :
 
 ## Key Features
 
-- **Name**: description.
-### Backend Features
-- **User Authentication**: Sign up and login securely.
-- **User Profile Management**: Update user profiles and profile images.
-- **Recipe Management**: Create, update, and access recipes and recipe feeds.
-- **Friendship Management**: Handle friend requests and manage friends.
-- **Comment System**: Enable user interactions through comments.
-- **Route Authentication**: Secure private routes with user authentication.
-- **Logout**: Allow users to log out securely.
+- **User Registration and Authentication**:
+  - Create an easy-to-use registration and login system.
+  - Ensure secure account creation and login processes.
+
+- **User Profiles**:
+  - Enable users to personalize their profiles with pictures and personal information.
+
+- **Post Creation and Sharing**:
+  - Allow users to create, edit, and share posts with text, images, and links.
+  - Implement tagging, hashtags, and location tagging features.
+
+- **News Feed**:
+  - Develop a dynamic news feed displaying posts from friends and the global recipe feed from the backend.
+
+- **User Interaction**:
+  - Include like, comment, and share functionalities to encourage user engagement.
+
+- **Friend Management**:
+  - Create features for sending, accepting, or rejecting friend requests.
+  - Implement tools to manage friends.
+
+- **Private Messaging**:
+  - Set up a messaging system for sending and receiving private messages.
+
+- **Recipe Management**:
+  - Utilize backend capabilities for users to create, edit, and share recipes, as well as view recipes from others.
+
+- **Notification System**:
+  - Notify users about friend requests, likes, comments, and messages to keep them engaged.
+
+- **User Search**:
+  - Implement a search functionality for finding friends and recipes easily.
+
+- **User Settings**:
+  - Allow users to customize account settings, privacy settings, and notification preferences.
+
+- **Logout and Account Deletion**:
+  - Enable users to log out and delete their accounts when needed.
+
+- **Responsive Design**:
+  - Ensure that the UI is responsive and functions well on various devices, including mobile and desktop.
+
+- **Data Security**:
+  - Implement security measures to protect user data, including encryption and secure connections.
+
+- **Error Handling**:
+  - Provide clear error messages and graceful handling of exceptions to enhance the user experience.
+
+- **Documentation and Help**:
+  - Offer user guides or tooltips to assist users in navigating and understanding the platform.
+
+- **Testing and Debugging**:
+  - Conduct thorough testing to identify and resolve any issues, bugs, or performance concerns.
+
 
 
 ## Tech Stack
