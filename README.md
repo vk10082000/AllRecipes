@@ -37,7 +37,7 @@ The backend is built on Node.js.
 
 This documentation outlines the available routes and endpoints for the backend application. These routes are responsible for handling various operations, including user authentication, recipe management, user management, and comment handling.
 
-### Authentication Routes
+### Login and Authentication Routes
 
 #### POST `/auth/signup`
 
@@ -58,7 +58,7 @@ This documentation outlines the available routes and endpoints for the backend a
 - Example usage: `/auth/logout`
 
 ### Private Routes (Authentication Required)
-
+### 
 #### GET `/feed`
 
 - Retrieves the user's feed of recipes.
