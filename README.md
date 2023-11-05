@@ -6,7 +6,7 @@ With Allrecipes, you can explore a diverse array of recipes, save your favorite 
 
 One of the standout features of Allrecipes is its ability to post your own culinary creations, similar to the way you'd share photos on Instagram. You can showcase your cooking prowess by uploading your recipes, complete with mouthwatering images, step-by-step instructions, and ingredient lists. Whether you're a seasoned chef or just starting your culinary journey, Allrecipes is the perfect digital kitchen companion, offering you a place to discover, share, and communicate with a vibrant community of fellow food enthusiasts.
 
-Live : 
+Live : [/deploy link]
 
 ## Key Features
 
@@ -118,7 +118,7 @@ The backend is built on Node.js.This documentation outlines the available routes
 | DELETE `/delete/:id`         | Delete a comment by ID                 | User authentication  |
 
 
-### Login, Register and Logout Routes
+### Login, Register, and Logout Routes
 
 #### POST `/auth/signup`
 
