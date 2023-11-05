@@ -269,4 +269,5 @@ RecipeHub is a teamwork project. Meet our awesome teammates:
 - Vamshikrishna Bejjarapu - Email: vamshikrishna99089@gmail.com
 
 *Note: This group project was developed in 5 days.*
+<br>
 -------------------------------Thank You😊-----------------------------------------
