@@ -28,14 +28,41 @@ Live :
 # Different Pages of Website
 
 
-## Backend
 
-The backend is built on Node.js.
+
 
 ### Endpoints and Usage
-# Backend Application Routes
+## Backend Application Routes
 
-This documentation outlines the available routes and endpoints for the backend application. These routes are responsible for handling various operations, including user authentication, recipe management, user management, and comment handling.
+The backend is built on Node.js.This documentation outlines the available routes and endpoints for the backend application. These routes are responsible for handling various operations, including user authentication, recipe management, user management, and comment handling.
+| Route                        | Use Case                               | Access               |
+| ----------------------------- | -------------------------------------- | -------------------- |
+| **Authentication Routes**    |                                        |                      |
+| POST `/auth/signup`          | Create a new user with a profile image | User registration    |
+| POST `/auth/login`           | Log in a user                          | User login credentials |
+| GET `/auth/logout`           | Log out a user                         | No authentication required |
+| **Fetch All Recipes**        |                                        |                      |
+| GET `/recipe/feed`           | Retrieve user's feed of recipes       | No authentication required |
+| **Private Routes (Authentication Required)** |                                |                      |
+| GET `/recipe/getMyRecipe`    | Retrieve user's recipes                | User authentication  |
+| GET `/recipe/getSingleRecipe/:id` | Retrieve a single recipe by ID  | User authentication  |
+| GET `/recipe/getAllRecipe`   | Retrieve all available recipes         | User authentication  |
+| PATCH `/recipe/update/:id`   | Update a recipe by ID                  | User authentication  |
+| **User Routes (Authentication Required)** |                              |                      |
+| GET `/users/requests`        | Retrieve user friend requests         | User authentication  |
+| GET `/users/friends`         | Retrieve user's friends                | User authentication  |
+| GET `/users/notfriends`      | Retrieve users who are not friends    | User authentication  |
+| GET `/users/:id`             | Retrieve a single user by ID          | User authentication  |
+| GET `/users/`                | Retrieve the profile of the logged-in user | User authentication  |
+| PATCH `/users/update/:id`    | Update user information by ID         | User authentication  |
+| PATCH `/users/addFriend/:id` | Add a friend to the user's friend list | User authentication  |
+| DELETE `/users/delete/:id`   | Delete a user by ID                    | User authentication  |
+| **Comment Routes**           |                                        |                      |
+| GET `/`                      | Retrieve all comments                  | No authentication required |
+| POST `/add`                  | Add a new comment to a recipe          | User authentication  |
+| PATCH `/update/:id`          | Update a comment by ID                 | User authentication  |
+| DELETE `/delete/:id`         | Delete a comment by ID                 | User authentication  |
+
 
 ### Login, Register and Logout Routes
 
