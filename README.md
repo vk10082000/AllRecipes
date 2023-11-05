@@ -140,6 +140,31 @@ This documentation outlines the available routes and endpoints for the backend a
 - Requires user authentication.
 - Example usage: `/delete/:id`
 
+### Comment Routes
+
+#### GET `/`
+
+- Retrieves all comments.
+- No authentication required.
+- Example usage: `/`
+
+#### POST `/add`
+
+- Adds a new comment to a recipe.
+- Requires user authentication.
+- Example usage: `/add`
+
+#### PATCH `/update/:id`
+
+- Updates a comment by its ID.
+- Requires user authentication.
+- Example usage: `/update/:id`
+
+#### DELETE `/delete/:id`
+
+- Deletes a comment by its ID.
+- Requires user authentication.
+- Example usage: `/delete/:id`
 
 
 Please ensure that proper authentication and authorization mechanisms are in place for private routes, as they require user authentication.
