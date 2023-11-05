@@ -11,11 +11,22 @@ Live :
 ## Key Features
 
 - **Name**: description.
+
 ## Tech Stack
 
 - Frontend: React.js
 - Backend: Node.js
 - Database: MongoDB
+![](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![](https://img.shields.io/badge/Babel-F9DC3E?style=for-the-badge&logo=babel&logoColor=white)
+![](https://img.shields.io/badge/Chakra--UI-319795?style=for-the-badge&logo=chakra-ui&logoColor=white)
+![](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)
+
+# Different Pages of Website
+
 
 ## Backend
 
@@ -25,43 +36,7 @@ The backend is built on Node.js.
 
 | Route                                                   | Use Case                                                         | Access                                       |
 |---------------------------------------------------------|-----------------------------------------------------------------|----------------------------------------------|
-| GET /api/student                                        | Fetch all students                                              | authentication, authorize(["admin"])         |
-| POST /api/student/signup                                | Register a new student                                          | Public                                       |
-| POST /api/student/signin                                | Login a student                                                 | Public                                       |
-| GET /api/student/course/instructor/:id                   | Get students in a course assigned to an instructor               | authentication, authorize(["instructor", "admin"]) |
-| GET /api/instructor                                     | Fetch all instructors                                           | authentication, authorize(["admin"])         |
-| POST /api/instructor/signup                             | Register a new instructor                                       | Public                                       |
-| POST /api/instructor/signin                             | Login an instructor                                             | Public                                       |
-| GET /api/instructor/course                              | Get instructors and associated courses                          | authentication, authorize(["admin"])         |
-| GET /api/instructor/course/available                    | Get courses not assigned to an instructor                        | Public                                       |
-| GET /api/department                                     | Fetch all departments                                           | Public                                       |
-| POST /api/department                                    | Create a new department                                         | authentication, authorize(["admin"])         |
-| GET /api/department/courses                             | Get departments with associated courses                         | Public                                       |
-| GET /api/course                                         | Fetch all courses                                               | Public                                       |
-| POST /api/course                                        | Create a new course                                             | authorize(["instructor", "admin"])           |
-| GET /api/course/enrolled/:id                             | Get enrolled courses for a specific student                      | authentication, authorize(["student", "admin"]) |
-| GET /api/enrollment                                     | Fetch all enrollments                                           | authentication, authorize(["admin"])         |
-| GET /api/enrollment/student/course                       | Get all student enrollments with course and enrollment date       | authentication, authorize(["admin"])         |
-| POST /api/enrollment                                    | Enroll a student in a course                                    | authentication, authorize(["student"])       |
-| GET /api/assignment                                     | Fetch all assignments                                           | authorize(["admin", "instructor"])           |
-| POST /api/assignment                                    | Create a new assignment                                         | authorize(["instructor"])                   |
-| GET /api/assignment/course                               | Get assignments with associated courses                          | authorize(["admin"])                        |
-| GET /api/assignment/course/:id                           | Get assignments for a specific course                             | authentication, authorize(["student", "instructor", "admin"]) |
-| GET /api/assignment/student/:id                          | Get assignments and submissions for a specific student             | authentication, authorize(["student", "instructor", "admin"]) |
-| DELETE /api/assignment/:id                              | Delete an assignment                                            | authorize(["instructor", "admin"])           |
-| PATCH /api/assignment/:id                               | Update an assignment                                            | authorize(["instructor", "admin"])           |
-| GET /api/submission                                     | Fetch all submissions                                           | authentication, authorize(["admin"])         |
-| POST /api/submission                                    | Submit an assignment                                            | authentication, authorize(["student", "instructor"]) |
-| GET /api/submission/student                             | Get student submissions                                         | Public                                       |
-| GET /api/submission/course/:id                           | Get submissions for a specific course                              | authentication, authorize(["admin", "instructor"]) |                                  
-| GET /api/announcement/department/:id                     | Get announcements for a specific department                       | authentication, authorize(["admin", "instructor", "student"]) |
-| GET /api/announcement/course/:id                         | Get announcements for a specific course                           | authentication, authorize(["admin", "instructor", "student"]) |
-| GET /api/announcement                                    | Get all announcements                                            | authentication, authorize(["student", "instructor", "admin"]) |
-| GET /api/announcement/student/:id                        | Get announcements for courses enrolled by a student                | authentication, authorize(["student", "instructor", "admin"]) |
-| GET /api/announcement/:id                                | Get a specific announcement                                      | authentication, authorize(["student", "instructor", "admin"]) |
-| POST /api/announcement                                   | Post a new announcement                                          | authentication, authorize(["admin", "instructor"]) |
-| POST /api/ai/chat                                       | Post a message for chatbot AI                                     | Public                                           |
-| POST /api/ai/assignment                                 | Get assignment information using AI                               | authentication, authorize(["instructor", "admin", "student"]) |
+
 
 ## Endpoints Reference
 
