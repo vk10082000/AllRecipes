@@ -11,6 +11,15 @@ Live :
 ## Key Features
 
 - **Name**: description.
+### Backend Features
+- **User Authentication**: Sign up and login securely.
+- **User Profile Management**: Update user profiles and profile images.
+- **Recipe Management**: Create, update, and access recipes and recipe feeds.
+- **Friendship Management**: Handle friend requests and manage friends.
+- **Comment System**: Enable user interactions through comments.
+- **Route Authentication**: Secure private routes with user authentication.
+- **Logout**: Allow users to log out securely.
+
 
 ## Tech Stack
 
