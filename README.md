@@ -36,7 +36,9 @@ The backend is built on Node.js.
 
 | Route                                                   | Use Case                                                         | Access                                       |
 |---------------------------------------------------------|-----------------------------------------------------------------|----------------------------------------------|
-
+| POST /auth/signup                                | Register a new user                                          | Public                                       |
+| POST /auth/signin                                | Login a user                                               | Public   |
+| Get  /auth/logout                                | Logout a user                                          | Public                                       |
 
 ## Endpoints Reference
 
