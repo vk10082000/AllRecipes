@@ -250,10 +250,21 @@ The backend is built on Node.js.This documentation outlines the available routes
 
 Please ensure that proper authentication and authorization mechanisms are in place for private routes, as they require user authentication.
 
+## Getting Started
 
+To run RecipeHub locally, follow these steps:
 
+1. Clone the repository: `git clone https://github.com/your-username/recipehub.git`
+2. Install dependencies: `npm install`
+3. Set up the database and configure environment variables.
+4. Start the development server: `npm start`
 
+## Contributors
 
-# What I've Learned
+RecipeHub is a teamwork project. Meet our awesome teammates:
+- Ayushmaan Rajput(team lead) - Email: ayushmaanrajput25feb@gmail.com
+- Nishant Singh - Email: nishantkr488@gmail.com
+- Ranvijay Tiwari - Email: ranvijaytiwari0000@gmail.com
+- Vamshikrishna Bejjarapu - Email: vamshikrishna99089@gmail.com
 
 
