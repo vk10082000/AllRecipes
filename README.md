@@ -37,7 +37,7 @@ The backend is built on Node.js.
 
 This documentation outlines the available routes and endpoints for the backend application. These routes are responsible for handling various operations, including user authentication, recipe management, user management, and comment handling.
 
-### Login and Authentication Routes
+### Login Register and Logout Routes
 
 #### POST `/auth/signup`
 
@@ -54,97 +54,93 @@ This documentation outlines the available routes and endpoints for the backend a
 #### GET `/auth/logout`
 
 - Logs out a user.
-- No additional parameters required.
+- No additional parameters are required.
 - Example usage: `/auth/logout`
 
-### Private Routes (Authentication Required)
-### 
-#### GET `/feed`
+### Fetch All Recipes
+
+#### GET `/recipe/feed`
 
 - Retrieves the user's feed of recipes.
-- Example usage: `/feed`
+- Example usage: `/recipe/feed`
 
-#### GET `/getMyRecipe`
+
+#### Private Routes (Authentication Required)
+
+#### GET `/recipe/getMyRecipe`
 
 - Retrieves the recipes created by the authenticated user.
-- Example usage: `/getMyRecipe`
+- Example usage: `/recipe/getMyRecipe`
 
-#### GET `/getSingleRecipe/:id`
+#### GET `/recipe/getSingleRecipe/:id`
 
 - Retrieves a single recipe by its ID.
-- Example usage: `/getSingleRecipe/:id`
+- Requires user authentication.
+- Example usage: `/recipe/getSingleRecipe/:id`
 
-#### GET `/getAllRecipe`
+#### GET `/recipe/getAllRecipe`
 
 - Retrieves all available recipes.
-- Example usage: `/getAllRecipe`
+- Requires user authentication.
+- Example usage: `/recipe/getAllRecipe`
 
-#### PATCH `/update/:id`
+#### PATCH `/recipe/update/:id`
 
 - Updates a recipe by its ID.
-- Example usage: `/update/:id`
+- Requires user authentication.
+- Example usage: `/recipe/update/:id`
+  
+### User Routes (Authentication Required)
 
-#### GET `/requests`
+#### GET `/users/requests`
 
 - Retrieves user friend requests.
+- Requires user authentication.
 - Example usage: `/requests`
 
-#### GET `/friends`
+#### GET `/users/friends`
 
 - Retrieves the user's friends.
-- Example usage: `/friends`
+- Requires user authentication.
+- Example usage: `/users/friends`
 
-#### GET `/notfriends`
+#### GET `/users/notfriends`
 
 - Retrieves users who are not yet friends with the authenticated user.
-- Example usage: `/notfriends`
+- Requires user authentication.
+- Example usage: `/users/notfriends`
 
-#### GET `/:id`
+#### GET `/users/:id`
 
 - Retrieves a single user by their ID.
-- Example usage: `/:id`
+- Requires user authentication.
+- Example usage: `/users/:id`
 
-#### GET `/`
+#### GET `/users/`
 
 - Retrieves the profile of the currently logged-in user.
-- Example usage: `/`
+- Requires user authentication.
+- Example usage: `/users/`
 
-#### PATCH `/update/:id`
+#### PATCH `/users/update/:id`
 
 - Updates a user's information by their ID.
+- Requires user authentication.
 - Example usage: `/update/:id`
 
-#### PATCH `/addFriend/:id`
+#### PATCH `/users/addFriend/:id`
 
 - Adds a friend to the authenticated user's friend list.
-- Example usage: `/addFriend/:id`
+- Requires user authentication.
+- Example usage: `/users/addFriend/:id`
 
-#### DELETE `/delete/:id`
+#### DELETE `/users/delete/:id`
 
 - Deletes a user by their ID.
+- Requires user authentication.
 - Example usage: `/delete/:id`
 
-### Comment Routes (No Authentication Required)
 
-#### GET `/`
-
-- Retrieves all comments (No authentication required).
-- Example usage: `/`
-
-#### POST `/add`
-
-- Adds a new comment to a recipe (No authentication required).
-- Example usage: `/add`
-
-#### PATCH `/update/:id`
-
-- Updates a comment by its ID (No authentication required).
-- Example usage: `/update/:id`
-
-#### DELETE `/delete/:id`
-
-- Deletes a comment by its ID (No authentication required).
-- Example usage: `/delete/:id`
 
 Please ensure that proper authentication and authorization mechanisms are in place for private routes, as they require user authentication.
 
