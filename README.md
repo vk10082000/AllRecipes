@@ -37,7 +37,7 @@ The backend is built on Node.js.
 
 This documentation outlines the available routes and endpoints for the backend application. These routes are responsible for handling various operations, including user authentication, recipe management, user management, and comment handling.
 
-### Login Register and Logout Routes
+### Login, Register and Logout Routes
 
 #### POST `/auth/signup`
 
