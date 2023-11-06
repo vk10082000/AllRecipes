@@ -261,15 +261,18 @@ To run RecipeHub locally, follow these steps:
 5. Start the development server: `npm run server`
 # Some sample pictures of our Website
 ### Home Page
-<img width="948" alt="Screenshot_110" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/b01m52i5a9xqgxa0pg7x.png">
+<img width="948" alt="HomePage" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/b01m52i5a9xqgxa0pg7x.png">
+<img width="948" alt="HomePage" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/mqd16nnp4xip5kqhyivj.png">
+<img width="948" alt="HomePage" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/1jc1g173lgjzotaef23b.png">
+<img width="948" alt="HomePage" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/fvk4twvz5okc5dxi6eh4.png">
 ### Login and Register Pages
-<img width="948" alt="Screenshot_110" src="">
+<img width="948" alt="HomePage" src="">
 ### Explore Page
-<img width="948" alt="Screenshot_110" src="">
+<img width="948" alt="Explore Page" src="">
 ### Feed Page
-<img width="948" alt="Screenshot_110" src="">
+<img width="948" alt="Feed Page" src="">
 ### Single Post Page
-<img width="948" alt="Screenshot_110" src="">
+<img width="948" alt="Single Post Page" src="">
 
 
 ## Contributors
