@@ -259,6 +259,18 @@ To run RecipeHub locally, follow these steps:
 3. Set up the database and configure environment variables.
 4. Start the development frontend-app: `npm start`
 5. Start the development server: `npm run server`
+# Some sample pictures of our Website
+### Home Page
+<img width="948" alt="Screenshot_110" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/b01m52i5a9xqgxa0pg7x.png">
+### Login and Register Pages
+<img width="948" alt="Screenshot_110" src="">
+### Explore Page
+<img width="948" alt="Screenshot_110" src="">
+### Feed Page
+<img width="948" alt="Screenshot_110" src="">
+### Single Post Page
+<img width="948" alt="Screenshot_110" src="">
+
 
 ## Contributors
 
