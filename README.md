@@ -1,12 +1,12 @@
 # RecipeHub
 
-Allrecipes is a user-friendly culinary hub that offers a wealth of features for food enthusiasts of all skill levels. This online platform is designed to inspire, connect, and share the joy of cooking with a community of like-minded individuals.
+RecipeHub is a user-friendly culinary hub that offers a wealth of features for food enthusiasts of all skill levels. This online platform is designed to inspire, connect, and share the joy of cooking with a community of like-minded individuals.
 
-With Allrecipes, you can explore a diverse array of recipes, save your favorite ones, and create personalized feeds filled with mouthwatering dishes that match your tastes and dietary preferences. The platform makes it easy to connect with fellow foodies through a convenient messaging system, allowing you to exchange cooking tips, recommendations, and ideas in a friendly and engaging environment.
+With RecipeHub, you can explore a diverse array of recipes, save your favorite ones, and create personalized feeds filled with mouthwatering dishes that match your tastes and dietary preferences. The platform makes it easy to connect with fellow foodies through a convenient messaging system, allowing you to exchange cooking tips, recommendations, and ideas in a friendly and engaging environment.
 
-One of the standout features of Allrecipes is its ability to post your own culinary creations, similar to the way you'd share photos on Instagram. You can showcase your cooking prowess by uploading your recipes, complete with mouthwatering images, step-by-step instructions, and ingredient lists. Whether you're a seasoned chef or just starting your culinary journey, Allrecipes is the perfect digital kitchen companion, offering you a place to discover, share, and communicate with a vibrant community of fellow food enthusiasts.
+One of the standout features of RecipeHub is its ability to post your own culinary creations, similar to the way you'd share photos on Instagram. You can showcase your cooking prowess by uploading your recipes, complete with mouthwatering images, step-by-step instructions, and ingredient lists. Whether you're a seasoned chef or just starting your culinary journey, RecipeHub is the perfect digital kitchen companion, offering you a place to discover, share, and communicate with a vibrant community of fellow food enthusiasts.
 
-Live : [/deploy link]
+Live : [https://concerned-picture-9849-frontend.vercel.app/]
 
 ## Key Features
 
