@@ -276,7 +276,7 @@ To run RecipeHub locally, follow these steps:
 ### Feed Page
 <img width="948" alt="Feed Page" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/iv2453qehp2ir903stfs.png">
 ### Single Post Page
-<img width="948" alt="Single Post Page" src="">
+<img width="948" alt="Single Post Page" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/kc56huk0ba1mlackhc1s.png">
 ### Account Page
 <img width="948" alt="Account Page" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/896c1v3u0r881s1qhdh4.png">
 
